@@ -1,0 +1,39 @@
+
+body, html {
+    height: 100%;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+.header {
+    flex-direction: column;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    font-size: 1.0em;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.footer {
+    display:flex;
+    flex-direction: row;
+    
+}
+ 
+.poster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 340px;
+}
